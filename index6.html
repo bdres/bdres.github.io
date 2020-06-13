@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>製作者</title>
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+        <script>
+            jQuery(document).ready(function() {
+            var offset = 350;
+            var duration = 200;
+            jQuery(window).scroll(function() {
+            if (jQuery(this).scrollTop() > offset) {
+            jQuery('.pagetop').fadeIn(duration);
+            } else {
+            jQuery('.pagetop').fadeOut(duration);
+            }
+            });
+            
+            jQuery('.pagetop').click(function(event) {
+            event.preventDefault();
+            jQuery('html, body').animate({scrollTop: 0}, duration);
+            return false;
+            })
+            });
+            </script>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="companyname">料理研究株式会社</div>
+                <div class="hidden-menu">
+                    <input type="checkbox" id="menu-check">
+                    <label for="menu-check" class="menu-label"><span class="menu-bar"></span></label>
+                    <label for="menu-check" class="menu-label2"></label>
+                        <div class="hidden-menu-content">
+                            <ul class="h-ul">
+                                <a href="index1.html" class="ul-a"><li class="h-li active">ご挨拶</li></a>
+                                <a href="index2.html" class="ul-a"><li class="h-li">サービス</li></a>
+                                <a href="index3.html" class="ul-a"><li class="h-li">会社概要</li></a>
+                                <a href="index4.html" class="ul-a"><li class="h-li h-li4">新規登録・ログイン</li></a>
+                                <a href="index5.html" class="ul-a ul-a-last"><li class="h-li" id="h-li-last">レシピ<span class="triangle">▼</span></li>
+                            <ul class="m-ul2">
+                                <a href="index5.html#washoku" class="m-li2-a"><li class="h-li2-1"><span class="cook-name">和食</span></li></a>
+                                <a href="index5.html#yoshoku" class="m-li2-a"><li class="h-li2-2"><span class="cook-name">洋食</span></li></a>
+                                <a href="index5.html#chuka" class="m-li2-a"><li class="h-li2-3"><span class="cook-name">中華</span></li></a>
+                                <a href="index5.html#italian" class="m-li2-a"><li class="h-li2-4"><span class="cook-name">イタリアン</span></li></a>
+                            </ul></a>   
+                        </ul>
+                    </div>
+                </div>
+               <img class="title" src="https://i.gyazo.com/d33e32d5ad2ddfc01a89d7cf51fe1f97.png" alt="">    
+                    <ul class="m-ul">
+                        <a href="index1.html" class="ul-a"><li class="m-li">ご挨拶</li></a>
+                        <a href="index2.html" class="ul-a"><li class="m-li">サービス</li></a>
+                        <a href="index3.html" class="ul-a"><li class="m-li">会社概要</li></a>
+                        <a href="index4.html" class="ul-a"><li class="m-li m-li4"><div class="m-li-box"><div class="m-li-top">新規登録</div><div class="m-li-bottom">ログイン</div></div></li></a>
+                        <a href="index5.html" class="ul-a ul-a-last"><li class="m-li" id="m-li-last">レシピ<span class="triangle">▼</span></li>
+                             <ul class="m-ul2">
+                                <a href="index5.html#washoku" class="m-li2-a"><li class="m-li2-1"><span class="cook-name">和食</span></li></a>
+                                <a href="index5.html#yoshoku" class="m-li2-a"><li class="m-li2-2"><span class="cook-name">洋食</span></li></a>
+                                <a href="index5.html#chuka" class="m-li2-a"><li class="m-li2-3"><span class="cook-name">中華</span></li></a>
+                                <a href="index5.html#italian" class="m-li2-a"><li class="m-li2-4"><span class="cook-name">イタリアン</span></li></a>
+                             </ul></a>   
+                     </ul>
+                <div class="colorball"></div>
+            </header>
+            <main class="inde6-main">
+                <h1 class="m-h1 ">サイト製作者</h1>
+                <h2 class="prof-h2"><ruby><rb>尾﨑</rb><rt>おさき</rt><rb>泉</rb><rt>いずみ</rt></ruby></h2>
+                <h3 class="m-h3">食べることと自然が好きな<br>中年プログラマーです</h3>
+
+
+                <div class="inde5-cook-detail">
+                    <div class="prof-box"><a href="#" class="prof-a"><img src="https://i.gyazo.com/60c499950d3b07ee1f86ea98fb6dc6e8.png" class="prof-img" alt=""></a><a href="https://twitter.com/izumi_pgm?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-screen-name="false" data-lang="ja" data-show-count="false">Follow @izumi_pgm</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+                    <p class="prof-explanation">高知県出身、埼玉県在住の中年です。基本的に美味しいものには目が無く、外食するのはお金がかかるから家で美味しいもの作っちゃおと思いながらもレパートリーが増えないという生活を送っております。<br><br>ウェブページ作成出来ます。デザイン、機能、予算などご要望のサイトイメージを教えてください♪英語サイト作成も出来ます♪<br><br>（見た目に似合わずファンシーな絵柄が好きな元美術部員。美味しいお店知ってたら教えてください⭐️夢は大自然の中で仕事をすること)</p>
+                </div>                    
+             <footer class="inde5-footer">
+                Copyright&copy;<a href="index1.html">料理研究株式会社</a> All Rights Reserved.
+              </footer> 
+            </main>
+        </div>
+        <div class="pagetop">↑</div>
+    </body>
+</html>    
