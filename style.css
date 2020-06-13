@@ -162,7 +162,7 @@ overflow-x: hidden;
     top: 0;
     left: 0;
     display: none;
-    /* background-color:black; */
+    background-color:black;
     opacity: .3;
     transition: .5s;
     /* content: ""; */
@@ -990,6 +990,8 @@ height: auto;
 
 .cook-detail {
     line-height: 30px;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .fa-arrow-down {
