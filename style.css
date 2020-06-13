@@ -1159,7 +1159,7 @@ margin-left: 30px;
     /* margin:0 20vw 10vh; */
     /* max-width: 80vw; */
     text-align: center;
-    margin:0;
+    margin:0 20px;
     background-color:rgba( 245,245,245,.4);
     background-blend-mode: lighten;
     
@@ -1421,6 +1421,10 @@ body {
 
 .m-h3 {
     font-size: 20px;
+}
+	
+.inde3-table {
+    margin:0 200px;	
 }
 
 .inde4-main {
