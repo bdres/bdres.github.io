@@ -162,7 +162,7 @@ overflow-x: hidden;
     top: 0;
     left: 0;
     display: none;
-/*     background-color:black; */
+    background-color:black;
     opacity: .3;
     transition: .5s;
     /* content: ""; */
@@ -1308,9 +1308,10 @@ margin-left: 30px;
 
 .prof-explanation {
     font-size: 2vw;
-    letter-spacing: .7em;
-    line-height: 4vh;
+    letter-spacing: .5em;
+    line-height: 8vh;
     width: 90%;
+    /* height: 70vh; */
     margin: 5%;
 }
 
