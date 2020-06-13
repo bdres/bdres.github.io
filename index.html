@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>🙇‍♂️ごあいさつ</title>
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+        <script>
+            jQuery(document).ready(function() {
+            var offset = 350;
+            var duration = 200;
+            jQuery(window).scroll(function() {
+            if (jQuery(this).scrollTop() > offset) {
+            jQuery('.pagetop').fadeIn(duration);
+            } else {
+            jQuery('.pagetop').fadeOut(duration);
+            }
+            });
+            
+            jQuery('.pagetop').click(function(event) {
+            event.preventDefault();
+            jQuery('html, body').animate({scrollTop: 0}, duration);
+            return false;
+            })
+            });
+            </script>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="companyname">料理研究株式会社</div>
+
+                <div class="hidden-menu">
+                    <input type="checkbox" id="menu-check">
+                    <label for="menu-check" class="menu-label"><span class="menu-bar"></span></label>
+                    <label for="menu-check" class="menu-label2"></label>
+                        <div class="hidden-menu-content">
+                            <ul class="h-ul">
+                                <a href="index1.html" class="ul-a"><li class="h-li active">挨拶</li></a>
+                                <a href="index2.html" class="ul-a"><li class="h-li">サービス</li></a>
+                                <a href="index3.html" class="ul-a"><li class="h-li">会社概要</li></a>
+                                <a href="index4.html" class="ul-a"><li class="h-li h-li4">新規登録・ログイン</li></a>
+                                <a href="index5.html" class="ul-a ul-a-last"><li class="h-li" id="h-li-last">レシピ<span class="triangle">▼</span></li>
+                            <ul class="m-ul2">
+                                <a href="index5.html#washoku" class="m-li2-a"><li class="h-li2-1"><span class="cook-name">和食</span></li></a>
+                                <a href="index5.html#yoshoku" class="m-li2-a"><li class="h-li2-2"><span class="cook-name">洋食</span></li></a>
+                                <a href="index5.html#chuka" class="m-li2-a"><li class="h-li2-3"><span class="cook-name">中華</span></li></a>
+                                <a href="index5.html#italian" class="m-li2-a"><li class="h-li2-4"><span class="cook-name">イタリアン</span></li></a>
+                            </ul></a>   
+                        </ul>
+                    </div>
+                </div>
+
+               <img class="title" src="https://i.gyazo.com/d33e32d5ad2ddfc01a89d7cf51fe1f97.png" alt="">  
+               <ul class="m-ul">
+                   <a href="index1.html" class="ul-a"><li class="m-li active">ご挨拶</li></a>
+                   <a href="index2.html" class="ul-a"><li class="m-li">サービス</li></a>
+                   <a href="index3.html" class="ul-a"><li class="m-li">会社概要</li></a>
+                   <a href="index4.html" class="ul-a"><li class="m-li m-li4"><div class="m-li-box"><div class="m-li-top">新規登録</div><div class="m-li-bottom">ログイン</div></div></li></a>
+                   <a href="index5.html" class="ul-a ul-a-last"><li class="m-li" id="m-li-last">レシピ<span class="triangle">▼</span></li>
+                        <ul class="m-ul2">
+                            <a href="index5.html#washoku" class="m-li2-a"><li class="m-li2-1"><span class="cook-name">和食</span></li></a>
+                            <a href="index5.html#yoshoku" class="m-li2-a"><li class="m-li2-2"><span class="cook-name">洋食</span></li></a>
+                            <a href="index5.html#chuka" class="m-li2-a"><li class="m-li2-3"><span class="cook-name">中華</span></li></a>
+                            <a href="index5.html#italian" class="m-li2-a"><li class="m-li2-4"><span class="cook-name">イタリアン</span></li></a>
+                        </ul></a>   
+                </ul>
+                <div class="effect-box">
+                    <p class="h-effect"></p>
+                    <p class="h-effect2"></p> 
+                </div>
+                <div class="effect-div">
+                    <img class="h-img" src="https://i.gyazo.com/d3bd3fcd7958c16f7e3bf10eba4098fc.jpg" alt="">  
+                    <!-- <img class="h-img" src="../images/mountain.jpg" alt="">   -->
+                    <div class="h-effects">
+                    <p class="h-p">好きな食べ物は何ですか？</p>
+                    <p class="h-p2">当てて見せましょうか？</p>
+                    <p class="h-p3">カツ丼、ですね</p>
+                    </div>
+                </div>
+                <!-- <div class="colorball"></div> -->
+                <p class="scroll">スクロール↓</p>
+            </header>
+            <main>
+                <div class="content">
+                    <img class="katsudon" src="https://i.gyazo.com/4561a2dbde5a25afcb35affc39b91f7f.jpg" alt="">
+                    <div class="hot-effects">
+                        <div class="hot-effect1">〜</div>
+                        <div class="hot-effect2">〜</div>
+                        <div class="hot-effect3">〜</div>
+                    </div>
+                </div>
+                <div class="content1"> 
+                    <div class="message">私たちは何のために働くのか</div>
+                </div>
+                <div class="content">
+                    <img class="shakehand" src="https://i.gyazo.com/d01a96ef852827b1f433d8dc6ac5627e.jpg" alt="">
+                    <div class="katsudon2"></div>
+                </div>
+                <div class="content1"> 
+                    <div class="message">そう、美味しいご飯を食べるためです</div>
+                </div>
+                <div class="content">
+                    <img class="disc" src="https://i.gyazo.com/af718a3f2fc1dc0898f2a4f7885fe897.jpg" alt="">
+                    <div class="katsudon2 katsu"></div>
+                </div>
+                <div class="content1"> 
+                    <div class="message">会議の時でもみんな本当は<br>ご飯のことを考えているんです</div>
+                </div>
+                <div class="content">
+                    <img class="pizza" src="https://i.gyazo.com/6c1b674a908822648e1057a315bf6d95.jpg" alt="">
+                </div>
+                <div class="content1"> 
+                    <div class="message">さあ、食欲を解き放ちましょう！</div>
+                    <div class="cursor">↓↓↓</div>
+                    <a class="a-btn" href="index2.html"><button class="lastbtn">Check</button></a>
+                </div>
+            </main>
+            <footer class="footer">
+                Copyright&copy;<a href="index1.html">料理研究株式会社</a> All Rights Reserved.
+              </footer>
+        </div>
+        <div class="pagetop">↑</div>
+    </body>
+</html>    
