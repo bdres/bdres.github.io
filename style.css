@@ -1410,6 +1410,10 @@ body {
     /* background-size: 100vh;   */
     background-repeat: repeat;
 }
+	
+.m-p {
+    font-size: 14px;	
+}
 
 .m-h2 {
     font-size: 20px;
