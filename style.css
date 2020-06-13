@@ -1458,6 +1458,10 @@ body {
     text-align: center;
 }
 
+.prof-box {
+    margin-right: 100px;
+}	
+	
 .prof-explanation {
     font-size: 16px;
 }
