@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>🏃‍♂️新規登録・ログイン</title>
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+        <script>
+            jQuery(document).ready(function() {
+            var offset = 350;
+            var duration = 200;
+            jQuery(window).scroll(function() {
+            if (jQuery(this).scrollTop() > offset) {
+            jQuery('.pagetop').fadeIn(duration);
+            } else {
+            jQuery('.pagetop').fadeOut(duration);
+            }
+            });
+            
+            jQuery('.pagetop').click(function(event) {
+            event.preventDefault();
+            jQuery('html, body').animate({scrollTop: 0}, duration);
+            return false;
+            })
+            });
+            </script>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="companyname">料理研究株式会社</div>
+                <div class="hidden-menu">
+                    <input type="checkbox" id="menu-check">
+                    <label for="menu-check" class="menu-label"><span class="menu-bar"></span></label>
+                    <label for="menu-check" class="menu-label2"></label>
+                        <div class="hidden-menu-content">
+                            <ul class="h-ul">
+                                <a href="index1.html" class="ul-a"><li class="h-li active">ご挨拶</li></a>
+                                <a href="index2.html" class="ul-a"><li class="h-li">サービス</li></a>
+                                <a href="index3.html" class="ul-a"><li class="h-li">会社概要</li></a>
+                                <a href="index4.html" class="ul-a"><li class="h-li h-li4">新規登録・ログイン</li></a>
+                                <a href="index5.html" class="ul-a ul-a-last"><li class="h-li" id="h-li-last">レシピ<span class="triangle">▼</span></li>
+                            <ul class="m-ul2">
+                                <a href="index5.html#washoku" class="m-li2-a"><li class="h-li2-1"><span class="cook-name">和食</span></li></a>
+                                <a href="index5.html#yoshoku" class="m-li2-a"><li class="h-li2-2"><span class="cook-name">洋食</span></li></a>
+                                <a href="index5.html#chuka" class="m-li2-a"><li class="h-li2-3"><span class="cook-name">中華</span></li></a>
+                                <a href="index5.html#italian" class="m-li2-a"><li class="h-li2-4"><span class="cook-name">イタリアン</span></li></a>
+                            </ul></a>   
+                        </ul>
+                    </div>
+                </div>
+               <img class="title" src="https://i.gyazo.com/d33e32d5ad2ddfc01a89d7cf51fe1f97.png" alt="">    
+                    <ul class="m-ul">
+                        <a href="index1.html" class="ul-a"><li class="m-li">ご挨拶</li></a>
+                        <a href="index2.html" class="ul-a"><li class="m-li">サービス</li></a>
+                        <a href="index3.html" class="ul-a"><li class="m-li">会社概要</li></a>
+                        <a href="index4.html" class="ul-a"><li class="m-li active m-li4"><div class="m-li-box"><div class="m-li-top">新規登録</div><div class="m-li-bottom">ログイン</div></div></li></a>
+                   <a href="index5.html" class="ul-a ul-a-last"><li class="m-li" id="m-li-last">レシピ<span class="triangle">▼</span></li>
+                        <ul class="m-ul2">
+                            <a href="index5.html#washoku" class="m-li2-a"><li class="m-li2-1"><span class="cook-name">和食</span></li></a>
+                            <a href="index5.html#yoshoku" class="m-li2-a"><li class="m-li2-2"><span class="cook-name">洋食</span></li></a>
+                            <a href="index5.html#chuka" class="m-li2-a"><li class="m-li2-3"><span class="cook-name">中華</span></li></a>
+                            <a href="index5.html#italian" class="m-li2-a"><li class="m-li2-4"><span class="cook-name">イタリアン</span></li></a>
+                        </ul></a>   
+                </ul>
+                <div class="colorball"></div>
+            </header>
+            <main class="inde4-main">
+                <h1 class="m-h1 "><span class="small1">ぜひぜひ</span>新規登録<span class="small2">お願いします</span></h1>
+                <div class="beg">🙇‍♂️</div>
+                <div class="new-left"><div class="new-left-hate">うっとーしーと思った方は<br>こちらへどうぞ<br><div class="hate-cursor">↓</div><br><a class="a-btn" href="index6.html"><button class="hatebtn">？？？？</button></a></div></div>
+                <form action="#" method="post" enctype="#">
+                    <table class="inde4-table">
+                        <tbody>
+                            <tr>
+                                <th class="con-th">お名前<span class="needed">（必須）</span></th>
+                                <td class="con-td"><input type="text" class="con-name" placeholder="山田太郎" required></td>
+                            </tr>
+                            <tr>
+                                <th class="con-th">性別<span class="needed">（必須）</span></th>
+                                <td class="con-td"><label class="con-gender" for="con-male"><input type="radio" name="gender" value="男性" id="con-male" required>男性</label>
+                                    <label class="con-gender" for="con-female"><input type="radio" name="gender" value="女性" id="con-female">女性</label></td>
+                            </tr>
+                            <tr>
+                                <th class="con-th">メールアドレス<span class="needed">（必須）</span></th>
+                                <td class="con-td"><input type="email" class="con-name" placeholder="xxx@xx.jp" required></td>
+                            </tr>
+                            <tr>
+                                <th class="con-th">メールマガジン<span class="needed">（必須）</span></th>
+                                <td class="con-td"><label class="con-gender" for="yes-mailmag"><input type="radio" name="mail-magazine" value="希望する" id="yes-mailmag" required>希望する</label>
+                                    <label class="con-gender" for="no-mailmag"><input type="radio" name="mail-magazine" value="希望しない" id="no-mailmag">希望しない</label></td>
+                            </tr>
+                            <tr>
+                                <th class="con-th">希望ジャンル<span class="needed">（必須）</span></th>
+                                <td class="con-td"><select class="con-name con-name-last" name="cook-choice" id="" required>
+                                    <option value>選択してください</option>
+                                    <option value>和食</option>
+                                    <option value>洋食</option>
+                                    <option value>中華</option>
+                                    <option value>イタリアン</option>
+                                </select></td>
+                            </tr>    
+                            <tr>
+                                <th class="con-th">その他ご意見<span class="needed">（任意）</span></th>
+                                <td class="con-td"><textarea name="con-textarea" id="con-textarea" rows="3"></textarea></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="con-btn-box">
+                        <input type="submit" value="送信" class="con-btn">
+                        <input type="reset" value="リセット" class="con-btn">
+                    </div>
+                </form>
+               
+                
+                    
+             <footer class="footer">
+                Copyright&copy;<a href="index1.html">料理研究株式会社</a> All Rights Reserved.
+                 <div class="footer-under"> 
+              </footer> 
+            </main>
+        </div>
+        <div class="pagetop">↑</div>
+    </body>
+</html>    
