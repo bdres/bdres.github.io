@@ -166,7 +166,7 @@ overflow-x: hidden;
     opacity: .3;
     transition: .5s;
     /* content: ""; */
-    width: 200vw;
+    width: 190vw;
     height: 150vh;
     z-index: 899;
 }
