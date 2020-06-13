@@ -1,16 +1,20 @@
 * {
     padding: 0;
+    margin: 0;
 }
 
 body {
 max-width: 100vw;
 overflow-x: hidden;
+background-color: gray;
 }
 
 
 /* header ここから*/
 .container {
-    max-width: 100%;
+ max-width: 100vw;
+/* overflow-x: hidden; */
+
 }
 
 .companyname {
@@ -269,7 +273,7 @@ overflow-x: hidden;
     border-collapse: collapse;
     transition: .5s;
     opacity: 0;
-    visibility: hidden; 
+    visibility: hidden;
 } 
 
 .cook-name {
@@ -421,12 +425,12 @@ overflow-x: hidden;
 }
 
 .h-img {
-    max-width: 100%;
+    max-width: 100vw;
     max-height: 100%;
     position: relative;
 }
 header {
-    max-width: 100%;
+    max-width: 100vw;
     position: relative;
 }
 
@@ -621,7 +625,7 @@ main {
 }
 
 .katsudon {
-    width: 100vw;
+    max-width: 100vw;
     height: auto;
     opacity: 1;
     z-index: 800;
@@ -689,8 +693,8 @@ height: auto;
 }
 
 .content1 {
-    max-width: 100%;
-    height:100vh;
+    width: 100vw;
+    height:80vh;
     background-attachment: fixed;
     background-image: url("https://i.gyazo.com/fc7931cb179c1feb146eb6dec924029a.jpg");
     background-size: contain;
@@ -818,7 +822,7 @@ height: auto;
 .footer {
     /* position: fixed;
     bottom: 0; */
-    max-width: 100%;
+    max-width: 100vw;
     height: 40px;
     text-align: center;
     font-size: 15px;
@@ -1120,7 +1124,6 @@ margin-left: 30px;
     margin: 0 10%;
     width: 80%;
     background:rgba(255,255,255,.5);    
-
     /* height: auto; */
     /* border: 1px solid black; */
 }   
@@ -1158,7 +1161,7 @@ margin-left: 30px;
     /* margin:0 20vw 10vh; */
     /* max-width: 80vw; */
     text-align: center;
-    margin:0 20px;
+    margin:0 10vw;
     background-color:rgba( 245,245,245,.4);
     background-blend-mode: lighten;
     
@@ -1316,6 +1319,7 @@ margin-left: 30px;
     width: 10%;
     margin: 10%;
     margin-top: 0;
+
 }
 
 .twitter-follow-button {
@@ -1409,9 +1413,9 @@ body {
     /* background-size: 100vh;   */
     background-repeat: repeat;
 }
-	
+
 .m-p {
-    font-size: 14px;	
+    font-size: 14px;
 }
 
 .m-h2 {
@@ -1421,9 +1425,9 @@ body {
 .m-h3 {
     font-size: 20px;
 }
-	
+
 .inde3-table {
-    margin:0 20px;	
+    margin: 0 20px;
 }
 
 .inde4-main {
@@ -1465,12 +1469,12 @@ body {
     text-align: center;
 }
 
-.prof-box {
-    margin-right: 100px;
-}	
-	
 .prof-explanation {
     font-size: 16px;
+}
+
+.prof-box {
+    margin-right: 100px;
 }
 
 .con-btn {
