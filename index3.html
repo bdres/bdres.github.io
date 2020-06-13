@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>🏢会社概要</title>
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+        <script>
+            jQuery(document).ready(function() {
+            var offset = 350;
+            var duration = 200;
+            jQuery(window).scroll(function() {
+            if (jQuery(this).scrollTop() > offset) {
+            jQuery('.pagetop').fadeIn(duration);
+            } else {
+            jQuery('.pagetop').fadeOut(duration);
+            }
+            });
+            
+            jQuery('.pagetop').click(function(event) {
+            event.preventDefault();
+            jQuery('html, body').animate({scrollTop: 0}, duration);
+            return false;
+            })
+            });
+            </script>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="companyname">料理研究株式会社</div>
+                <div class="hidden-menu">
+                    <input type="checkbox" id="menu-check">
+                    <label for="menu-check" class="menu-label"><span class="menu-bar"></span></label>
+                    <label for="menu-check" class="menu-label2"></label>
+                        <div class="hidden-menu-content">
+                            <ul class="h-ul">
+                                <a href="index1.html" class="ul-a"><li class="h-li active">ご挨拶</li></a>
+                                <a href="index2.html" class="ul-a"><li class="h-li">サービス</li></a>
+                                <a href="index3.html" class="ul-a"><li class="h-li">会社概要</li></a>
+                                <a href="index4.html" class="ul-a"><li class="h-li h-li4">新規登録・ログイン</li></a>
+                                <a href="index5.html" class="ul-a ul-a-last"><li class="h-li" id="h-li-last">レシピ<span class="triangle">▼</span></li>
+                            <ul class="m-ul2">
+                                <a href="index5.html#washoku" class="m-li2-a"><li class="h-li2-1"><span class="cook-name">和食</span></li></a>
+                                <a href="index5.html#yoshoku" class="m-li2-a"><li class="h-li2-2"><span class="cook-name">洋食</span></li></a>
+                                <a href="index5.html#chuka" class="m-li2-a"><li class="h-li2-3"><span class="cook-name">中華</span></li></a>
+                                <a href="index5.html#italian" class="m-li2-a"><li class="h-li2-4"><span class="cook-name">イタリアン</span></li></a>
+                            </ul></a>   
+                        </ul>
+                    </div>
+                </div>
+               <img class="title" src="https://i.gyazo.com/d33e32d5ad2ddfc01a89d7cf51fe1f97.png" alt="">    
+                    <ul class="m-ul">
+                        <a href="index1.html" class="ul-a"><li class="m-li">ご挨拶</li></a>
+                        <a href="index2.html" class="ul-a"><li class="m-li">サービス</li></a>
+                        <a href="index3.html" class="ul-a"><li class="m-li active">会社概要</li></a>
+                        <a href="index4.html" class="ul-a"><li class="m-li m-li4"><div class="m-li-box"><div class="m-li-top">新規登録</div><div class="m-li-bottom">ログイン</div></div></li></a>
+                        <a href="index5.html" class="ul-a ul-a-last"><li class="m-li" id="m-li-last">レシピ<span class="triangle">▼</span></li>
+                             <ul class="m-ul2">
+                                <a href="index5.html#washoku" class="m-li2-a"><li class="m-li2-1"><span class="cook-name">和食</span></li></a>
+                                <a href="index5.html#yoshoku" class="m-li2-a"><li class="m-li2-2"><span class="cook-name">洋食</span></li></a>
+                                <a href="index5.html#chuka" class="m-li2-a"><li class="m-li2-3"><span class="cook-name">中華</span></li></a>
+                                <a href="index5.html#italian" class="m-li2-a"><li class="m-li2-4"><span class="cook-name">イタリアン</span></li></a>
+                             </ul></a>   
+                     </ul>
+                <div class="colorball"></div>
+            </header>
+            <main class="inde3-main">
+                <h1 class="m-h1 ">会社概要</h1>
+                    <table class="inde3-table">
+                        <tbody>
+                            <tr>
+                                <th class="inde3-con-th">会社名</th>
+                                <td class="inde3-con-td">料理研究株式会社</td>
+                            </tr>
+                            <tr>
+                                <th class="inde3-con-th">代表者名</th>
+                                <td class="inde3-con-td">山本太郎</td>
+                            </tr>
+                            <tr>
+                                <th class="inde3-con-th">設立</th>
+                                <td class="inde3-con-td">１９９０年１２月</td>
+                            </tr>
+                            <tr>
+                                <th class="inde3-con-th">資本金</th>
+                                <td class="inde3-con-td">1,000千万円</td>
+                            </tr>
+                            <tr>
+                                <th class="inde3-con-th">従業員数</th>
+                                <td class="inde3-con-td">１０名</td>
+                            </tr>
+                            <tr>
+                                <th class="inde3-con-th">売上高（２０１９年度）</th>
+                                <td class="inde3-con-td">１億円</td>
+                            </tr>
+                            <tr>
+                                <th class="inde3-con-th">事業内容</th>
+                                <td class="inde3-con-td">料理コンサル</td>
+                            </tr>
+                            <tr>
+                                <th class="inde3-con-th">主要取引銀行</th>
+                                <td class="inde3-con-td">〇〇銀行<br>〇〇銀行<br>〇〇銀行<br>〇〇銀行<br></td>
+                            </tr>
+                            <tr>
+                                <th class="inde3-con-th">住所</th>
+                                <td class="inde3-con-td address">〒100-0005 東京都千代田区丸の内１丁目<br><br><br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.8280303848233!2d139.7649307503372!3d35.68123618009722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1590912414010!5m2!1sja!2sjp" class="googlemap" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></td>
+                            </tr>
+                        </tbody>
+                    </table>                  
+             <footer class="footer">
+                Copyright&copy;<a href="index1.html">料理研究株式会社</a> All Rights Reserved.
+                 <div class="footer-under"> 
+              </footer> 
+            </main>
+        </div>
+        <div class="pagetop">↑</div>
+    </body>
+</html>    
