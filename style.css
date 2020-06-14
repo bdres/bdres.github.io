@@ -1328,13 +1328,20 @@ margin-left: 30px;
     font-size: 6vw;
 }
 
+.inde6-prof-box {
+    background-image: url("https://i.gyazo.com/c838f30d05d4d48d52aeebd3c81b5a22.jpg");
+    background-color:rgba(255,255,255,0.5);
+    background-blend-mode: lighten;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: left 50% top 50%;
+}
+
 .prof-box {
     float: left;
     width: 10%;
     margin: 10%;
     margin-top: 0;
-    
-
 }
 
 .prof-img {
@@ -1343,12 +1350,7 @@ margin-left: 30px;
 }
 
 .inde6-main {
-    background-image: url("https://i.gyazo.com/c838f30d05d4d48d52aeebd3c81b5a22.jpg");
-    background-color:rgba(255,255,255,0.5);
-    background-blend-mode: lighten;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    background-position: left 50% top 50%;
+   
 }
 
 .prof-pic:hover {
@@ -1373,6 +1375,32 @@ margin-left: 30px;
 .age {
     font-size: 20px;
 }
+
+.sample1-box {
+    width: 40%;
+    height: auto;
+    margin: 5%;
+    float: left;
+    border: 1px solid orange;
+    box-sizing: border-box;
+}
+
+.sample2-box {
+    width: 40%;
+    height: auto;
+    margin: 5%;
+    float: right;
+    border: 1px solid orange;
+    box-sizing: border-box;
+
+}
+
+.sample1-img {
+    width: 80%;
+    height: auto;
+    margin: 10%;
+}
+
 
 
 
