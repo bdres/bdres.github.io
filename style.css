@@ -697,7 +697,7 @@ height: auto;
     background-attachment: fixed;
     background-image: url("https://i.gyazo.com/fc7931cb179c1feb146eb6dec924029a.jpg");
     background-size: contain;
-    background-repeat: no-repeat;
+/*     background-repeat: no-repeat; */
     background-position: center;
     /* padding:auto; */
     text-align: center;
