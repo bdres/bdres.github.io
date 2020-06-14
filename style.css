@@ -693,16 +693,15 @@ height: auto;
 
 .content1 {
     width: 100vw;
-    height:80vh;
+    height:100vh;
     background-attachment: fixed;
     background-image: url("https://i.gyazo.com/fc7931cb179c1feb146eb6dec924029a.jpg");
-    background-size: contain;
-/*     background-repeat: no-repeat; */
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     /* padding:auto; */
     text-align: center;
-    position: relative;
-    
+    position: relative;    
 }
 
 .message {
@@ -1476,7 +1475,7 @@ body {
 
 .prof-explanation {
     font-size: 16px;
-    line-height:3vh;
+    line-height: 4vh;
 }
 
 .prof-box {
