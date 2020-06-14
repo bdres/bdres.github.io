@@ -1452,9 +1452,9 @@ body {
 }
 
 .content1 {
-    max-width: 100vw;
+    width: 100vw;
     /* height:50vh; */
-    background-size: 100vh;  
+    background-size: 50vh;  
     background-repeat: no-repeat;
 }
 
