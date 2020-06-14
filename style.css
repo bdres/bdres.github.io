@@ -693,7 +693,7 @@ height: auto;
 
 .content1 {
     width: 100vw;
-    height:100vh;
+    height:70vh;
     background-attachment: fixed;
     background-image: url("https://i.gyazo.com/fc7931cb179c1feb146eb6dec924029a.jpg");
     background-size: cover;
@@ -1453,8 +1453,8 @@ body {
 
 .content1 {
     width: 100vw;
-    /* height:50vh; */
-    background-size: 50vh;  
+    height:30vh;
+    background-size: contain;  
     background-repeat: no-repeat;
 }
 
