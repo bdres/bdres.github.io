@@ -776,9 +776,9 @@ height: auto;
 .cursor {
     /* display: none; */
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 50%;
-    transform: translate(-50%,-60%);
+    transform: translate(-50%,-65%);
     font-size: 30px;    
     font-weight: 600;
     animation: anime10 1s infinite alternate;
@@ -809,7 +809,7 @@ height: auto;
 
 .lastbtn:hover {
     cursor: pointer;
-    top:79.5%;
+    top:89.5%;
     box-shadow:0 2px 2px gray ;
     transition: .3s ;
     background-color: #FFEFD5;
